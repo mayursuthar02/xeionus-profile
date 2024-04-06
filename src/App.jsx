@@ -24,12 +24,12 @@ const App = () => {
       <div className="profile-section">
 
         <div className="share-btn" onClick={showModelHandler}>
-          <img src="../public/share-alt-solid-24.png" alt="" title="Share" />
+          <img src="/public/share-alt-solid-24.png" alt="" title="Share" />
         </div>
       
         <div className="profile-img">
           <div className="img-wrapper">
-            <img src="../public/35.jpg" alt="" />
+            <img src="/public/35.jpg" alt="" />
           </div>
         </div>
 
@@ -45,7 +45,7 @@ const App = () => {
                 target="_blank"
                 title="Instagram"
               >
-                <img src="../public/instagram-logo-24.png" alt="Instagram" />
+                <img src="/public/instagram-logo-24.png" alt="Instagram" />
               </a>
             </li>
             <li>
@@ -54,7 +54,7 @@ const App = () => {
                 target="_blank"
                 title="Twitter"
               >
-                <img src="../public/twitter-logo-24.png" alt="Twitter" />
+                <img src="/public/twitter-logo-24.png" alt="Twitter" />
               </a>
             </li>
           </ul>
@@ -67,9 +67,6 @@ const App = () => {
         <ul className="store-links">
           <li>
             <a href="https://www.frameo.store/collections/xeionus" target="_blank">
-              <div className="icon">
-                <img src="../public/store-solid-24.png" alt="Store" />
-              </div>
               <h2>FrameoStore</h2>
               <h2 className="label">India</h2>
             </a>
@@ -77,9 +74,6 @@ const App = () => {
 
           <li>
             <a href="https://www.artplate.in/shop?Artists=Xeionus+Art&Category=Xeionus+Art" target="_blank">
-              <div className="icon">
-                <img src="../public/store-solid-24.png" alt="Store" />
-              </div>
               <h2>Artplate</h2>
               <h2 className="label">India</h2>
             </a>
@@ -87,9 +81,6 @@ const App = () => {
           
           <li>
             <a href="https://metaleks.com/collections/xeionus" target="_blank">
-              <div className="icon">
-                <img src="../public/store-solid-24.png" alt="Store" />
-              </div>
               <h2>Metaleks</h2>
               <h2 className="label">Global</h2>
             </a>
@@ -97,9 +88,6 @@ const App = () => {
 
           <li>
             <a href="https://www.redbubble.com/people/Xeionus/shop?asc=u" target="_blank">
-              <div className="icon">
-                <img src="../public/store-solid-24.png" alt="Store" />
-              </div>
               <h2>Redbubble</h2>
               <h2 className="label">Global</h2>
             </a>

@@ -1,4 +1,8 @@
 import React, {useState, useRef } from "react";
+import profileImg from '../public/35.jpg'
+import InstIcon from '../public/instagram-logo-24.png'
+import TwitterIcon from '../public/twitter-logo-24.png'
+import ShareIcon  from '../public/share-alt-solid-24.png'
 
 const App = () => {
   const [inputText, setInputText] = useState(window.location.href)
@@ -24,12 +28,12 @@ const App = () => {
       <div className="profile-section">
 
         <div className="share-btn" onClick={showModelHandler}>
-          <img src="/public/share-alt-solid-24.png" alt="" title="Share" />
+          <img src={ShareIcon} alt="" title="Share" />
         </div>
       
         <div className="profile-img">
           <div className="img-wrapper">
-            <img src="/public/35.jpg" alt="" />
+            <img src={profileImg} alt="" />
           </div>
         </div>
 
@@ -45,7 +49,7 @@ const App = () => {
                 target="_blank"
                 title="Instagram"
               >
-                <img src="/public/instagram-logo-24.png" alt="Instagram" />
+                <img src={InstIcon} alt="Instagram" />
               </a>
             </li>
             <li>
@@ -54,7 +58,7 @@ const App = () => {
                 target="_blank"
                 title="Twitter"
               >
-                <img src="/public/twitter-logo-24.png" alt="Twitter" />
+                <img src={TwitterIcon} alt="Twitter" />
               </a>
             </li>
           </ul>
@@ -88,6 +92,9 @@ const App = () => {
 
           <li>
             <a href="https://www.redbubble.com/people/Xeionus/shop?asc=u" target="_blank">
+              <div className="icon">
+                <img src="../public/store-solid-24.png" alt="Store" />
+              </div>
               <h2>Redbubble</h2>
               <h2 className="label">Global</h2>
             </a>
